@@ -728,11 +728,9 @@ h2.achievementTitle img {
 
 .searchWrapper {
   text-align:center;
-  margin:5px
 }
 
 .searchWrapper>div {
-  border:1px solid #dfdfdf;
   padding:7px;
   display:inline-block
 }
