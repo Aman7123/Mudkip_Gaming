@@ -1,0 +1,1282 @@
+@charset "UTF-8";
+
+img.player_avatar {
+  padding:1px!important
+}
+
+.player_ranked {
+  padding:5px;
+  display:inline-block
+}
+
+.rank-badge {
+  padding:1px 4px;
+  display:inline-block;
+  background:#ccc;
+  font-size:11px;
+  margin-bottom:3px
+}
+
+.rank-badge-admin,.rank-badge-owner {
+  background-color:#bc4141;
+  color:#fff
+}
+
+.rank-badge-moderator {
+  background-color:#3e7134;
+  color:#fff
+}
+
+.rank-badge-helper,.rank-badge-helper_jr {
+  background-color:#2e5c8b;
+  color:#fff
+}
+
+.rank-badge-youtuber {
+  background-color:#e8983a;
+  color:#453909
+}
+
+.rank-badge-mvp_plus,.rank-badge-mvp {
+  background-color:#a1e8ec;
+  color:#0a3a3d
+}
+
+.rank-badge-vip_plus,.rank-badge-vip {
+  background-color:#98cd7c;
+  color:#203f10
+}
+
+.guild-member-label {
+  background:#d9d9d9
+}
+
+.guild-member-label .rank-badge {
+  font-size:11px;
+  margin-bottom:0;
+  padding:2px 5px;
+  font-weight:700
+}
+
+.guild-member-label .guild-rank {
+  font-size:11px;
+  padding:2px 1px
+}
+
+.profilePage {
+}
+
+.profilePage {
+  zoom:1
+}
+
+.profilePage:after {
+  content:'.';
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden
+}
+
+.profilePage .mast {
+  float:left;
+  width:225px;
+  padding-right:10px
+}
+
+.profilePage .mainProfileColumn {
+  margin-left:215px;
+  zoom:1
+}
+
+.profilePage .darkHeader {
+  background:#595d60;
+  height:90px;
+  width:100%
+}
+
+.profilePage .mainProfileColumn .darkHeader {
+  background:#404446
+}
+
+.darkHeader h1 {
+  color:#fff;
+  padding:18px 36px;
+  padding-bottom:0;
+  font-size:22px
+}
+
+.darkHeader .rank-badge {
+  padding:4px 6px;
+  vertical-align:top;
+  margin-bottom:0;
+  margin-top:3px
+}
+
+.darkHeader .guild-member-label {
+  display:inline-block;
+  font-size:11px;
+  color:#404446;
+  vertical-align:top;
+  margin-top:3px
+}
+
+.darkHeader .guild-member-label .rank-badge {
+  font-size:11px;
+  margin-bottom:0;
+  padding:4px 5px;
+  font-weight:700;
+  margin:0
+}
+
+.darkHeader .guild-member-label .guild-rank {
+  font-size:11px;
+  padding:4px 2px;
+  padding-right:6px;
+  vertical-align:middle;
+  margin:0;
+  line-height:21px
+}
+
+.darkHeader .lastSeen {
+  padding-left:36px;
+  padding-top:13px;
+  color:#b3b3b3;
+  font-size:13px;
+  font-style:italic
+}
+
+.darkHeader .lastSeen i.icon {
+  display:inline-block;
+  width:15px;
+  height:15px;
+  background:transparent url(http://hypixel.net/styles/hypixel-uix/hypixel/last-seen.png) no-repeat center center;
+  margin-right:3px;
+  vertical-align:top
+}
+
+.darkHeader .lastSeen i.guildIcon {
+  background:transparent url(http://hypixel.net/styles/hypixel-uix/hypixel/guild-profile.png) no-repeat center center;
+  margin-right:0
+}
+
+.darkHeader .lastSeen span {
+}
+
+.darkHeader .level {
+  width:50px;
+  height:50px;
+  -webkit-border-radius:99px;
+  -moz-border-radius:99px;
+  -khtml-border-radius:99px;
+  border-radius:99px;
+  border:5px solid #fff;
+  color:#fff;
+  text-align:center;
+  font-size:17px;
+  line-height:50px
+}
+
+.darkHeader .levelChart {
+  width:55px;
+  height:55px;
+  color:#fff;
+  text-align:center;
+  font-size:15px;
+  line-height:52px;
+  position:relative;
+  margin-top:3px
+}
+
+.darkHeader .levelChart canvas {
+  position:absolute;
+  top:0;
+  left:0
+}
+
+.darkHeader .levelWrapper {
+  float:right;
+  padding:15px
+}
+
+.playerAvatar {
+  height:330px;
+  width:211px;
+  _height:211px;
+  background-color:#d6d6d6;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-image:url(http://hypixel.net/styles/hypixel-uix/hypixel/big-avatar-bg.png);
+  margin:7px;
+  margin-top:-83px
+}
+
+.playerAvatar>div {
+  width:100%;
+  height:100%;
+  background-repeat:no-repeat;
+  background-position:center center
+}
+
+.profileNavigation {
+}
+
+.profileNavigation ul {
+  margin:0;
+  padding:0
+}
+
+.profileNavigation li {
+  display:block
+}
+
+.profileNavigation li a {
+  display:block;
+  border-bottom:1px solid #c3c3c3;
+  color:#535353;
+  font-size:13px;
+  padding:14px
+}
+
+.profileNavigation li a:hover {
+  text-decoration:none;
+  background:#f9f8f8
+}
+
+.profileNavigation li.active a {
+  border-bottom:1px solid #335165;
+  color:#fff;
+  background:#4a93c5;
+  cursor:pointer
+}
+
+.profileContent {
+  padding-left:36px;
+  padding-top:29px
+}
+
+.profileContent h2 {
+  font-size:17px;
+  color:#343637;
+  margin-bottom:7px
+}
+
+.statsSection {
+  width:49%;
+  _float:left;
+  display:inline-block
+}
+
+.statsSection dt,.statsSection dd {
+  float:left;
+  width:50%;
+  font-size:13px
+}
+
+.statsSection dl {
+  color:#5d6165
+}
+
+.statsSection dd {
+  text-align:right;
+  color:#5d6165;
+  font-weight:700
+}
+
+.statRow {
+  padding-right:45px;
+  line-height:30px
+}
+
+.gameStatWrapper {
+  overflow-x:hidden;
+  min-height:885px
+}
+
+.gameStatInnerWrapper {
+  width:5000px
+}
+
+.gameInfo {
+  float:left;
+  display:none
+}
+
+.gameInfo h3 {
+  padding:14px 24px;
+  padding-right:14px;
+  font-size:15px;
+  background:#e9e9e9;
+  border-bottom:1px solid #cecece
+}
+
+.gameInfo h4 {
+  padding:8px 24px;
+  font-size:14px;
+  background:#e9e9e9;
+  border-bottom:1px solid #cecece
+}
+
+.gameInfo h3 a {
+  float:right;
+  display:block;
+  font-weight:700;
+  border:1px solid #cecece;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  -khtml-border-radius:6px;
+  border-radius:6px;
+  padding:6px 12px;
+  margin-top:-7px
+}
+
+.gameInfo h3 a:hover {
+  text-decoration:none;
+  background:#cecece;
+  color:#fff
+}
+
+.gameInfo table.generalStats,.gameInfo table.classStats {
+  width:100%
+}
+
+.gameInfo .generalStats td,.gameInfo .classStats td,.gameInfo .classStats th {
+  padding:10px 22px;
+  font-size:12px
+}
+
+.gameInfo .classStats td, {
+  padding:6px 22px;
+  font-size:12px
+}
+
+.gameInfo .classStats th {
+  border-bottom:1px solid #cecece;
+  font-weight:700
+}
+
+.gameInfo .classStats .className {
+  font-weight:700;
+  text-align:right;
+  border-right:1px solid #cecece
+}
+
+.gameInfo .generalStats .row2 td {
+  background:#f2f2f2
+}
+
+.gameInfo .generalStats td.statName {
+  border-right:1px solid #cecece;
+  width:27%;
+  text-align:right
+}
+
+.gameInfo .generalStats td.statValue {
+  font-weight:700
+}
+
+.gameStatPanes {
+  float:left
+}
+
+.gameStatPanes .pane {
+  width:282px;
+  height:211px;
+  background:#ddd;
+  float:left;
+  margin-right:5px;
+  margin-bottom:5px;
+  background-position:center center;
+  transition:all 1s
+}
+
+.gameStatPanes .pane.paneHidden {
+  -webkit-transform:scale(1);
+  -moz-transform:scale(1);
+  -o-transform:scale(1);
+  -ms-transform:scale(1);
+  transform:scale(1);
+  opacity:0
+}
+
+.gameStatPanes .paneHead {
+  background:#212325;
+  height:32px;
+  width:268px;
+  margin-top:24px;
+  margin-left:14px
+}
+
+.gameStatPanes .paneHead>.icon {
+  display:block;
+  width:44px;
+  height:44px;
+  background:#fff;
+  position:relative;
+  top:-12px;
+  float:left
+}
+
+.gameStatPanes .paneHead h3 {
+  color:#fff;
+  font-size:13px;
+  padding:7px 55px;
+  padding-right:0;
+  font-weight:700
+}
+
+.gameStatPanes .paneHead .achievementCount {
+  float:right;
+  font-size:11px;
+  color:#bdbdbd;
+  font-weight:600;
+  padding:9px;
+  padding-right:16px;
+  margin-right:6px;
+  background:transparent url(http://hypixel.net/styles/hypixel-uix/hypixel/achievement-count.png) no-repeat right 9px
+}
+
+.gameStatPanes .stats {
+  color:#fff;
+  padding:11px;
+  padding-top:8px;
+  padding-bottom:0
+}
+
+.gameStatPanes table {
+  border:none;
+  border-spacing:3px;
+  border-collapse:separate;
+  width:100%;
+  font-size:12px
+}
+
+.gameStatPanes tr {
+  margin-bottom:3px
+}
+
+.gameStatPanes dl {
+  zoom:1
+}
+
+.gameStatPanes dl:after {
+  content:'.';
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden
+}
+
+.gameStatPanes .stats td {
+  padding:9px 11px
+}
+
+.gameStatPanes .stats td.statName {
+  background:url(http://hypixel.net/rgba.php?r=0&g=0&b=0&a=51);
+  background:rgba(0,0,0,0.2);
+  _filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#33000000,endColorstr=#33000000);
+  width:75%;
+  white-space:nowrap
+}
+
+.gameStatPanes .stats td.statValue {
+  background:url(http://hypixel.net/rgba.php?r=0&g=0&b=0&a=102);
+  background:rgba(0,0,0,0.4);
+  _filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
+  width:25%;
+  font-weight:700;
+  white-space:nowrap
+}
+
+.gameStatPanes .viewAllStats {
+  text-align:center;
+  font-size:10px;
+  height:32px;
+  line-height:32px;
+  background:transparent url(http://hypixel.net/styles/hypixel-uix/hypixel/game-gradient.png) repeat-x center bottom
+}
+
+.gameStatPanes .viewAllStats a {
+  color:#fff;
+  -webkit-transition:all .2s;
+  -moz-transition:all .2s;
+  -o-transition:all .2s;
+  transition:all .2s
+}
+
+.gameStatPanes .viewAllStats a:hover {
+  text-decoration:none;
+  color:#f0f0f0;
+  padding-left:5px;
+  opacity:.8
+}
+
+.gameStatPanes .viewAllStats a b {
+  color:#979393;
+  margin-right:4px
+}
+
+.parkourTimes {
+  width:100%;
+  border:none
+}
+
+.parkourTimes td {
+  border-bottom:1px solid #ddd;
+  padding:5px;
+  line-height:initial;
+  vertical-align:middle
+}
+
+.parkourTimes td.parkourIcon {
+  width:24px;
+  padding:7px;
+  height:30px
+}
+
+.parkourTimes td.parkourName {
+  width:30%
+}
+
+.parkourTimes td.parkourTime {
+  font-weight:700;
+  background:#f4f5f6;
+  padding-left:14px
+}
+
+table.profile_stats {
+  empty-cells:show;
+  width:100%
+}
+
+table.profile_stats caption {
+  background-color:silver;
+  padding:16px;
+  padding-left:0;
+  display:none
+}
+
+table.profile_stats caption span {
+  background-color:#000;
+  color:#fff;
+  font-weight:700;
+  text-align:left;
+  padding:4px;
+  padding-left:16px
+}
+
+table.profile_stats td,table.profile_stats th {
+  border-color:#ddd;
+  border-style:none;
+  border-bottom-style:solid;
+  border-width:1px;
+  font-size:14px;
+  padding:12px 6px
+}
+
+table.profile_stats td {
+  padding-right:8px;
+  text-align:right;
+  font-weight:700
+}
+
+table.profile_stats th {
+  padding-left:8px;
+  text-align:left
+}
+
+.xenOverlay.playerStats {
+  color:#fff;
+  background-color:#2b2b2b;
+  padding:8px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  -khtml-border-radius:4px;
+  border-radius:4px;
+  overflow:hidden;
+  max-width:565px;
+  -webkit-box-shadow:0 0 15px 0 rgba(0,0,0,0.8);
+  -moz-box-shadow:0 0 15px 0 rgba(0,0,0,0.8);
+  -khtml-box-shadow:0 0 15px 0 rgba(0,0,0,0.8);
+  box-shadow:0 0 15px 0 rgba(0,0,0,0.8);
+  _max-height:450px;
+  _overflow-y:scroll
+}
+
+.xenOverlay.playerStats .statsWrapper {
+  background:#333;
+  margin:2px
+}
+
+.xenOverlay.playerStats h3 {
+  background:#1d1d1d;
+  padding:8px 12px;
+  color:#fff;
+  font-weight:700;
+  display:block;
+  font-size:14px
+}
+
+.xenOverlay.playerStats table {
+  width:100%
+}
+
+.xenOverlay.playerStats td {
+  padding:9px 12px;
+  border-bottom:#2f2f2f
+}
+
+.xenOverlay.playerStats .row2 td {
+  background:#323232
+}
+
+.xenOverlay.playerStats td.statName {
+  width:42%;
+  text-align:right;
+  border-right:1px solid #1d1d1d
+}
+
+.xenOverlay.playerStats td.statValue {
+  font-weight:700
+}
+
+.xenOverlay.playerStats a.close {
+  top:12px;
+  right:12px
+}
+
+@media (max-width:480px) {
+.Responsive .xenOverlay.playerStats {
+  max-width:320px
+}
+}
+
+.oneTimeSection,.tieredSection {
+  float:left;
+  width:50%;
+  margin-bottom:16px
+}
+
+h2.achievementTitle {
+  vertical-align:top;
+  line-height:25px
+}
+
+h2.achievementTitle img {
+  padding-right:4px
+}
+
+.achievements {
+  margin-top:7px
+}
+
+.achievements li {
+  height:55px;
+  width:55px;
+  background:#ddd;
+  display:inline-block;
+  margin-right:3px;
+  margin-bottom:3px;
+  background:url(http://hypixel.net/styles/hypixel-uix/hypixel/achievement-empty-gray.png) center center no-repeat
+}
+
+.achievements li.completed {
+  background-image:url(http://hypixel.net/styles/hypixel-uix/hypixel/achievement-empty.png)
+}
+
+.achievements li img {
+  opacity:.3;
+  fill:red
+}
+
+.achievements li.completed img {
+  opacity:.8
+}
+
+.achievements li .achievementIcon {
+  width:inherit;
+  height:inherit;
+  background:transparent;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:55px 55px;
+  opacity:.3;
+  background-image:url(http://hypixel.net/styles/hypixel-uix/hypixel/achievements/unknown.png)
+}
+
+.achievements li.completed .achievementIcon {
+  opacity:.7
+}
+
+.tooltipster-base .state {
+  margin-top:4px;
+  text-align:center;
+  font-size:11px;
+  padding:5px;
+  color:#e2e2e2;
+  border-top:1px solid #333;
+  padding-bottom:1px
+}
+
+.tooltipster-base .achievementDescription {
+  font-size:12px
+}
+
+.tooltipster-base .state.completed {
+  color:#5def67
+}
+
+.searchWrapper {
+  padding:30px;
+  border:1px solid #dfdfdf;
+  text-align:center;
+  margin:5px
+}
+
+.searchWrapper>div {
+  border:1px solid #dfdfdf;
+  padding:7px;
+  display:inline-block
+}
+
+.searchWrapper input[type=text] {
+  width:440px;
+  padding:9px;
+  font-size:16px;
+  outline:none;
+  border:1px solid #cfcfcf
+}
+
+.searchWrapper input[type=submit] {
+  width:50px;
+  padding:11px;
+  padding-bottom:12px;
+  font-size:13px;
+  outline:none;
+  color:#fff;
+  background:#4a93c5 url(http://hypixel.net/styles/hypixel-uix/hypixel/search-icon-white.png) no-repeat center center;
+  border:none;
+  vertical-align:top;
+  font-weight:700;
+  -moz-transition:opacity .5;
+  -o-transition:opacity .5;
+  -webkit-transition:opacity .5;
+  transition:opacity .5
+}
+
+.searchWrapper input[disabled] {
+  opacity:.3
+}
+
+h2.newPlayers {
+  margin-top:15px;
+  padding:12px 7px;
+  font-size:16px
+}
+
+.playerWall {
+  text-align:center
+}
+
+.playerWall li {
+  display:inline-block;
+  padding:5px
+}
+
+.guildInfo {
+  margin-left:15px
+}
+
+@media (max-width:610px) {
+.Responsive .profilePage {
+  display:table;
+  table-layout:fixed;
+  width:100%;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  box-sizing:border-box
+}
+
+.Responsive .profilePage .mast {
+  display:table-footer-group;
+  float:none;
+  padding-right:0;
+  border-right:none;
+  margin:0 auto;
+  margin-top:10px
+}
+
+.Responsive .profilePage .mainProfileColumn {
+  display:table-header-group;
+  margin-left:0;
+  border-left:none;
+  border-bottom:1px solid #f0f0f0;
+  padding-bottom:10px
+}
+
+.Responsive .statsSection {
+  width:100%
+}
+
+.Responsive .profileContent {
+  padding-left:0
+}
+
+.Responsive .lastSeen {
+  padding-top:5px
+}
+
+.Responsive .guildInfo {
+  display:block;
+  margin-top:2px;
+  margin-left:0
+}
+
+.Responsive .darkHeader h1 {
+  padding:11px 36px;
+  padding-bottom:0
+}
+
+.searchWrapper input[type=text] {
+  width:175px
+}
+}
+
+.tooltipster-default {
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -khtml-border-radius:5px;
+  border-radius:5px;
+  border:1px solid #333;
+  background:#4c4c4c;
+  color:#fff
+}
+
+.tooltipster-default .tooltipster-content {
+  font-family:Arial,sans-serif;
+  font-size:14px;
+  line-height:16px;
+  padding:8px 10px;
+  overflow:hidden
+}
+
+.tooltipster-default .tooltipster-arrow .tooltipster-arrow-border {
+}
+
+.tooltipster-icon {
+  cursor:help;
+  margin-left:4px
+}
+
+.tooltipster-base {
+  padding:0;
+  font-size:0;
+  line-height:0;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9999999;
+  pointer-events:none;
+  width:auto;
+  overflow:visible
+}
+
+.tooltipster-base .tooltipster-content {
+  overflow:hidden
+}
+
+.tooltipster-arrow {
+  display:block;
+  text-align:center;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1
+}
+
+.tooltipster-arrow span,.tooltipster-arrow-border {
+  display:block;
+  width:0;
+  height:0;
+  position:absolute
+}
+
+.tooltipster-arrow-top span,.tooltipster-arrow-top-right span,.tooltipster-arrow-top-left span {
+  border-left:8px solid transparent!important;
+  border-right:8px solid transparent!important;
+  border-top:8px solid;
+  bottom:-7px
+}
+
+.tooltipster-arrow-top .tooltipster-arrow-border,.tooltipster-arrow-top-right .tooltipster-arrow-border,.tooltipster-arrow-top-left .tooltipster-arrow-border {
+  border-left:9px solid transparent!important;
+  border-right:9px solid transparent!important;
+  border-top:9px solid;
+  bottom:-7px
+}
+
+.tooltipster-arrow-bottom span,.tooltipster-arrow-bottom-right span,.tooltipster-arrow-bottom-left span {
+  border-left:8px solid transparent!important;
+  border-right:8px solid transparent!important;
+  border-bottom:8px solid;
+  top:-7px
+}
+
+.tooltipster-arrow-bottom .tooltipster-arrow-border,.tooltipster-arrow-bottom-right .tooltipster-arrow-border,.tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+  border-left:9px solid transparent!important;
+  border-right:9px solid transparent!important;
+  border-bottom:9px solid;
+  top:-7px
+}
+
+.tooltipster-arrow-top span,.tooltipster-arrow-top .tooltipster-arrow-border,.tooltipster-arrow-bottom span,.tooltipster-arrow-bottom .tooltipster-arrow-border {
+  left:0;
+  right:0;
+  margin:0 auto
+}
+
+.tooltipster-arrow-top-left span,.tooltipster-arrow-bottom-left span {
+  left:6px
+}
+
+.tooltipster-arrow-top-left .tooltipster-arrow-border,.tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+  left:5px
+}
+
+.tooltipster-arrow-top-right span,.tooltipster-arrow-bottom-right span {
+  right:6px
+}
+
+.tooltipster-arrow-top-right .tooltipster-arrow-border,.tooltipster-arrow-bottom-right .tooltipster-arrow-border {
+  right:5px
+}
+
+.tooltipster-arrow-left span,.tooltipster-arrow-left .tooltipster-arrow-border {
+  border-top:8px solid transparent!important;
+  border-bottom:8px solid transparent!important;
+  border-left:8px solid;
+  top:50%;
+  margin-top:-7px;
+  right:-7px
+}
+
+.tooltipster-arrow-left .tooltipster-arrow-border {
+  border-top:9px solid transparent!important;
+  border-bottom:9px solid transparent!important;
+  border-left:9px solid;
+  margin-top:-8px
+}
+
+.tooltipster-arrow-right span,.tooltipster-arrow-right .tooltipster-arrow-border {
+  border-top:8px solid transparent!important;
+  border-bottom:8px solid transparent!important;
+  border-right:8px solid;
+  top:50%;
+  margin-top:-7px;
+  left:-7px
+}
+
+.tooltipster-arrow-right .tooltipster-arrow-border {
+  border-top:9px solid transparent!important;
+  border-bottom:9px solid transparent!important;
+  border-right:9px solid;
+  margin-top:-8px
+}
+
+.tooltipster-fade {
+  opacity:0;
+  -webkit-transition-property:opacity;
+  -moz-transition-property:opacity;
+  -o-transition-property:opacity;
+  -ms-transition-property:opacity;
+  transition-property:opacity
+}
+
+.tooltipster-fade-show {
+  opacity:1
+}
+
+.tooltipster-grow {
+  -webkit-transform:scale(0,0);
+  -moz-transform:scale(0,0);
+  -o-transform:scale(0,0);
+  -ms-transform:scale(0,0);
+  -webkit-transform:scale(0,0);
+  -moz-transform:scale(0,0);
+  -o-transform:scale(0,0);
+  -ms-transform:scale(0,0);
+  transform:scale(0,0);
+  -webkit-transition-property:-webkit-transform;
+  -moz-transition-property:-moz-transform;
+  -o-transition-property:-o-transform;
+  -ms-transition-property:-ms-transform;
+  transition-property:transform;
+  -webkit-backface-visibility:hidden
+}
+
+.tooltipster-grow-show {
+  -webkit-transform:scale(1,1);
+  -moz-transform:scale(1,1);
+  -o-transform:scale(1,1);
+  -ms-transform:scale(1,1);
+  -webkit-transform:scale(1,1);
+  -moz-transform:scale(1,1);
+  -o-transform:scale(1,1);
+  -ms-transform:scale(1,1);
+  transform:scale(1,1);
+  -webkit-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1);
+  -webkit-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15);
+  -moz-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15);
+  -ms-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15);
+  -o-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15);
+  transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15)
+}
+
+.tooltipster-swing {
+  opacity:0;
+  -webkit-transform:rotateZ(4deg);
+  -moz-transform:rotateZ(4deg);
+  -o-transform:rotateZ(4deg);
+  -ms-transform:rotateZ(4deg);
+  -webkit-transform:rotateZ(4deg);
+  -moz-transform:rotateZ(4deg);
+  -o-transform:rotateZ(4deg);
+  -ms-transform:rotateZ(4deg);
+  transform:rotateZ(4deg);
+  -webkit-transition-property:-webkit-transform,opacity;
+  -moz-transition-property:-moz-transform;
+  -o-transition-property:-o-transform;
+  -ms-transition-property:-ms-transform;
+  transition-property:transform
+}
+
+.tooltipster-swing-show {
+  opacity:1;
+  -webkit-transform:rotateZ(0deg);
+  -moz-transform:rotateZ(0deg);
+  -o-transform:rotateZ(0deg);
+  -ms-transform:rotateZ(0deg);
+  -webkit-transform:rotateZ(0deg);
+  -moz-transform:rotateZ(0deg);
+  -o-transform:rotateZ(0deg);
+  -ms-transform:rotateZ(0deg);
+  transform:rotateZ(0deg);
+  -webkit-transition-timing-function:cubic-bezier(0.230,0.635,0.495,1);
+  -webkit-transition-timing-function:cubic-bezier(0.230,0.635,0.495,2.4);
+  -moz-transition-timing-function:cubic-bezier(0.230,0.635,0.495,2.4);
+  -ms-transition-timing-function:cubic-bezier(0.230,0.635,0.495,2.4);
+  -o-transition-timing-function:cubic-bezier(0.230,0.635,0.495,2.4);
+  transition-timing-function:cubic-bezier(0.230,0.635,0.495,2.4)
+}
+
+.tooltipster-fall {
+  top:0;
+  -webkit-transition-property:top;
+  -moz-transition-property:top;
+  -o-transition-property:top;
+  -ms-transition-property:top;
+  transition-property:top;
+  -webkit-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1);
+  -webkit-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15);
+  -moz-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15);
+  -ms-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15);
+  -o-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15);
+  transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15)
+}
+
+.tooltipster-fall-show {
+}
+
+.tooltipster-fall.tooltipster-dying {
+  -webkit-transition-property:all;
+  -moz-transition-property:all;
+  -o-transition-property:all;
+  -ms-transition-property:all;
+  transition-property:all;
+  top:0!important;
+  opacity:0
+}
+
+.tooltipster-slide {
+  left:-40px;
+  -webkit-transition-property:left;
+  -moz-transition-property:left;
+  -o-transition-property:left;
+  -ms-transition-property:left;
+  transition-property:left;
+  -webkit-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1);
+  -webkit-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15);
+  -moz-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15);
+  -ms-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15);
+  -o-transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15);
+  transition-timing-function:cubic-bezier(0.175,0.885,0.320,1.15)
+}
+
+.tooltipster-slide.tooltipster-slide-show {
+}
+
+.tooltipster-slide.tooltipster-dying {
+  -webkit-transition-property:all;
+  -moz-transition-property:all;
+  -o-transition-property:all;
+  -ms-transition-property:all;
+  transition-property:all;
+  left:0!important;
+  opacity:0
+}
+
+.tooltipster-content-changing {
+  opacity:.5;
+  -webkit-transform:scale(1.1,1.1);
+  -moz-transform:scale(1.1,1.1);
+  -o-transform:scale(1.1,1.1);
+  -ms-transform:scale(1.1,1.1);
+  -webkit-transform:scale(1.1,1.1);
+  -moz-transform:scale(1.1,1.1);
+  -o-transform:scale(1.1,1.1);
+  -ms-transform:scale(1.1,1.1);
+  transform:scale(1.1,1.1)
+}
+
+#moderatorBar {
+  background-color:#2b2b2b;
+  border-bottom:1px solid #bbb;
+  font-size:11px
+}
+
+#moderatorBar {
+  zoom:1
+}
+
+#moderatorBar:after {
+  content:'.';
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden
+}
+
+#moderatorBar .pageContent {
+  padding:2px 0;
+  overflow:auto
+}
+
+#moderatorBar a {
+  display:inline-block;
+  padding:2px 10px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  -khtml-border-radius:3px;
+  border-radius:3px
+}
+
+#moderatorBar a,#moderatorBar .itemCount {
+  color:#f0f0f0
+}
+
+#moderatorBar a:hover {
+  text-decoration:none;
+  background-color:#535353;
+  color:#fafafa
+}
+
+#moderatorBar .itemLabel,#moderatorBar .itemCount {
+  display:inline-block;
+  height:16px;
+  line-height:16px
+}
+
+#moderatorBar .itemCount {
+  background:#535353;
+  padding-left:6px;
+  padding-right:6px;
+  text-align:center;
+  font-weight:700;
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  -khtml-border-radius:2px;
+  border-radius:2px;
+  text-shadow:none
+}
+
+#moderatorBar .itemCount.alert {
+  background:#e03030;
+  color:#fff;
+  -webkit-box-shadow:2px 2px 5px rgba(0,0,0,0.25);
+  -moz-box-shadow:2px 2px 5px rgba(0,0,0,0.25);
+  -khtml-box-shadow:2px 2px 5px rgba(0,0,0,0.25);
+  box-shadow:2px 2px 5px rgba(0,0,0,0.25)
+}
+
+#moderatorBar .adminLink {
+  float:right
+}
+
+#moderatorBar .permissionTest,#moderatorBar .permissionTest:hover {
+  background:#e03030;
+  color:#fff;
+  -webkit-box-shadow:2px 2px 5px rgba(0,0,0,0.25);
+  -moz-box-shadow:2px 2px 5px rgba(0,0,0,0.25);
+  -khtml-box-shadow:2px 2px 5px rgba(0,0,0,0.25);
+  box-shadow:2px 2px 5px rgba(0,0,0,0.25);
+  font-weight:700
+}
+
+.natMenuLevel0 {
+  padding-left:0
+}
+
+.natMenuLevel1 {
+  padding-left:10px
+}
+
+.natMenuLevel2 {
+  padding-left:20px
+}
+
+.natMenuLevel3 {
+  padding-left:30px
+}
+
+.natMenuLevel4 {
+  padding-left:40px
+}
+
+.natMenuLevel5 {
+  padding-left:50px
+}
+
+.natMenuLevel6 {
+  padding-left:60px
+}
+
+.natMenuLevel7 {
+  padding-left:70px
+}
+
+.natMenuLevel8 {
+  padding-left:80px
+}
+
+.natMenuLevel9 {
+  padding-left:90px
+}
+
+.natMenuLevel10 {
+  padding-left:100px
+}
+
+div.natJSMenuColumns {
+  background-color:#FFF;
+  background-color:rgba(255,255,255,0.96)
+}
+
+div.natJSMenuColumns ul {
+  float:left;
+  border-bottom:0;
+  background-color:transparent!important;
+  max-height:none!important
+}
